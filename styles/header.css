@@ -25,11 +25,15 @@
 }
 .lista__menu{
 display: none;
+background-color: var(--branco);
 position: absolute;
 top:100%;
 width: 60vw;
 }
+.lista__menu-item{
 
+    padding:1em;
+}
 .conteiner__botao:checked~.lista__menu{
     display: block;
 }
