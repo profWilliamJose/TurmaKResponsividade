@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--branco);
+    position: relative;
 
 }
 
@@ -21,4 +22,18 @@
 
 .conteiner__imagem{
     padding: 1em;
+}
+.lista__menu{
+display: none;
+position: absolute;
+top:100%;
+
+}
+
+.conteiner__botao:checked~.lista__menu{
+    display: block;
+}
+
+.conteiner__botao{
+    display: none;
 }
