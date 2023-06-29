@@ -25,7 +25,6 @@
 }
 .lista__menu{
 display: none;
-background-color: var(--branco);
 position: absolute;
 top:100%;
 
