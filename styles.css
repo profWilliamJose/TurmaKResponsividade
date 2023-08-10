@@ -4,10 +4,14 @@
     --branco:#FFFFFF;
     --roxo:#C75EED;
     --amarelo:#fece2f; 
+    --preto:#000000;
+    --fonte-principal:"Poppins";
+    --fonte-secundaria:"Josefin Sans";
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
 }
 
 h1{
